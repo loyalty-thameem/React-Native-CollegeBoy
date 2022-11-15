@@ -4,7 +4,6 @@ import React from 'react'
 const CustomeTextInput = (props) => {
     // console.log('props',props);
     // const { value, placeholderText, KeyboradType, onChangeValue, autoCapitalizeText, autoCompleteText, autoCorrectText, secureTextEntryText } = props;
-
     return (
         <View style={styles.textInputContainer}>
             <TextInput
@@ -41,8 +40,9 @@ const styles = StyleSheet.create({
         backgroundColor: "white",
       
         paddingHorizontal: 20,
-        paddingVertical: 15,
-        fontSize: 18,
+        paddingVertical: 10,
+        // paddingVertical: 15,
+        fontSize: 15,
         borderRadius:8,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 1 },

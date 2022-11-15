@@ -28,6 +28,8 @@ const LoginScreen = ({navigation}) => {
         else if (email && password) {
             Alert.alert("Welcome");
             navigation.navigate('Home')
+            setEmail('');
+            setPassword('');
         }
         else {
             Alert.alert('Invalid login details')
